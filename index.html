@@ -60,10 +60,10 @@
 
       <section class="hero">
         <div class="hero__container">
-          <h1 class="hero-title">
+          <h1 class="hero__title">
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА
           </h1>
-          <button class="hero-studio" data-modal-open>Заказать услугу</button>
+          <button class="hero__button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- Особенности -->
@@ -498,67 +498,67 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="modal-form">
-          <label for="username" class="modal-label">Имя</label>
-          <div class="input-wraper">
+        <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="modal__form">
+          <label for="username" class="modal__label">Имя</label>
+          <div class="input__wraper">
             <input
               type="text"
               name="username"
               id="username"
-              class="modal-input"
+              class="modal__input"
             />
-            <svg class="input-icon" width="18" height="18">
+            <svg class="input__icon" width="18" height="18">
               <use href="./images/icons2.svg#icon-person-black"></use>
             </svg>
           </div>
 
-          <label for="tel" class="modal-label">Телефон</label>
-          <div class="input-wraper">
-            <input type="tel" name="tel" id="tel" class="modal-input" />
-            <svg class="input-icon" width="18" height="18">
+          <label for="tel" class="modal__label">Телефон</label>
+          <div class="input__wraper">
+            <input type="tel" name="tel" id="tel" class="modal__input" />
+            <svg class="input__icon" width="18" height="18">
               <use href="./images/icons2.svg#icon-phone-black"></use>
             </svg>
           </div>
-          <label for="email" class="modal-label">Почта</label>
-          <div class="input-wraper">
-            <input type="email" name="email" id="email" class="modal-input" />
-            <svg class="input-icon" width="18" height="18">
+          <label for="email" class="modal__label">Почта</label>
+          <div class="input__wraper">
+            <input type="email" name="email" id="email" class="modal__input" />
+            <svg class="input__icon" width="18" height="18">
               <use href="./images/icons2.svg#icon-email-black"></use>
             </svg>
           </div>
-          <label class="modal-label">
+          <label class="modal__label">
             Комментарий
 
             <textarea
               name="feedback"
               rows="10"
               placeholder="Введите текст"
-              class="modal-input feedback"
+              class="modal__input feedback"
             ></textarea>
           </label>
         </form>
 
         <form class="checkbox">
-          <label class="checkbox-label">
-            <input class="checkbox-input" type="checkbox" />
-            <span class="checkbox-text"
+          <label class="checkbox__label">
+            <input class="checkbox__input" type="checkbox" />
+            <span class="checkbox__text"
               >Соглашаюсь с рассылкой и принимаю
-              <a class="checkbox-link" href="#">Условия договора</a>
+              <a class="checkbox__link" href="#">Условия договора</a>
             </span>
-            <svg class="check-icon" width="16" height="15">
+            <svg class="check__icon" width="16" height="15">
               <use href="./images/icons2.svg#icon-check"></use>
             </svg>
-            <svg class="uncheck-icon" width="16" height="15">
+            <svg class="uncheck__icon" width="16" height="15">
               <use href="./images/icons2.svg#icon-uncheck"></use>
             </svg>
           </label>
         </form>
 
-        <button class="modal-btn" type="submit">Отправить</button>
+        <button class="modal__btn" type="submit">Отправить</button>
 
-        <button class="modal-close" data-modal-close>
-          <svg class="close-icon" width="18px" height="18px">
+        <button class="modal__close" data-modal-close>
+          <svg class="close__icon" width="18px" height="18px">
             <use href="./images/icons2.svg#icon-close"></use>
           </svg>
         </button>
